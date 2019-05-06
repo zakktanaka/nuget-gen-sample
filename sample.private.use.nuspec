@@ -8,6 +8,7 @@
     <description>spdlog for private use</description>
   </metadata>
   <files>
+    <file src = "build\**" target = "build" />
     <file src = "third-party\spdlog\include\spdlog\**" target = "build\native\include\spdlog" />
   </files>
-</package>
+</package>  
