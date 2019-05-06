@@ -13,8 +13,8 @@
     <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
     <copyright>Copyright 2019</copyright>
     <tags>Tag1 Tag2</tags>
-    <dependencies>
-      <dependency id="SampleDependency" version="1.0" />
-    </dependencies>
   </metadata>
+  <files>
+    <file src = "third-party\spdlog\include\spdlog\**" target = "build\native\include\spdlog" />
+  </files>
 </package>
